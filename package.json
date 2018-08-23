@@ -1,0 +1,8 @@
+{
+  "name": "campaign-forge",
+  "version": "0.0.1",
+  "description": "Everything a DM needs to write, prepare and run a D&D 5e campaign",
+  "main": "server/index.js",
+  "author": "Zak Thompson <zak@thisfireinside.com>",
+  "license": "MIT"
+}
