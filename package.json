@@ -10,7 +10,8 @@
     "url": "https://github.com/zakthompson/campaign-forge"
   },
   "scripts": {
-    "dev": "rollup --watch -m -c rollup.config.dev.js"
+    "dev:client": "rollup --watch -m -c rollup.config.dev.js",
+    "dev:server": "nodemon server/index.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -18,7 +19,13 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
     "less": "^3.8.1",
+    "nodemon": "^1.18.4",
     "rollup": "^0.64.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^9.1.5",
@@ -29,6 +36,9 @@
     "rollup-plugin-serve": "^0.4.2"
   },
   "dependencies": {
+    "graphql-yoga": "^1.16.2",
+    "merge-graphql-schemas": "^1.5.4",
+    "mongodb": "^3.1.6",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }
