@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>Campaign Forge</h1>
+        <h1>Testing</h1>
       </div>
     );
   }
